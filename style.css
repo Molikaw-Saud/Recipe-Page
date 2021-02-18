@@ -192,6 +192,9 @@ footer {
 
 /* this for laptop */
 @media screen and (min-width: 1024px) {
+    body {
+        padding: 52px 234px 0px 234px;
+    }
     .title {
         font-size: 3rem;
     }
@@ -246,8 +249,8 @@ footer {
     .section-One {
         width: 100%;
         display: flex;
+        justify-content: space-between;
         flex-direction: row-reverse;
-        justify-content: center;
     }
     .ingredients {
         width: 50%;
@@ -262,10 +265,6 @@ footer {
     }
     .container {
         margin-top: 20px;
-    }
-    .section-tow {
-   
-        margin-left: 14rem;
     }
     .instructions {
         width: 60%;
