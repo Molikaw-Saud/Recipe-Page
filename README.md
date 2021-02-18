@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}" target = "_blank">
+    <a href="https://howtomackacake.netlify.app/" target = "_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}" target = "_blank">
+    <a href="https://github.com/Molikaw-Saud/Recipe-Page" target = "_blank">
       Solution
     </a>
     <span> | </span>
@@ -37,13 +37,13 @@
 
 ## Overview
 
-![screenshot] <img src=".Images/scrennshot.png" alt="I'm not happy with this scrennshot">
+![screenshot] <img src="https://raw.githubusercontent.com/pointlessrapunzel/devchallenges-io-solutions/main/responsive/recipe-page/screenshots/desktop-screenshot.png" alt="I'm not happy with this scrennshot">
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML] <a href="https://www.html.com" target = "_blank">
+- [HTML] <a href="https://html.com/" target = "_blank">
 - [CSS] <a href="https://www.css.com" target = "_blank">
 
 
