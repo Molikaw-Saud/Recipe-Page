@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    --font-One: 'Playfair Display', sans-serif;
+    --font-Tow: 'Montserrat', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 32px 12px 0px 11px;
+}
+
+
+/* ============================= Recipe Bolg Mobile =============================== */
+
+.title-header{
+    font-family: var(--font-One);
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+header .inf-text {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+header .inf-text p {
+    font-family: var(--font-Tow);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 15px;
+    color: #4f4f4f;
+    margin-bottom: 10px;
+}
+header .cake {
+    width: 100%;
+}
+
+.info {
+    margin-top: 20px;
+}
+.Yo {
+    display: flex;
+    gap: 10px;
+}
+.info .lemon {
+    color: #f2994a;
+}
+.semll {
+    font-family: var(--font-Tow);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.5rem;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+.col {
+    font-family: var(--font-Tow);
+    font-weight: 500;
+    font-size: 0.6rem;
+    line-height: 12px;
+    color: #f2994a;
+}
+.Vo {
+    display: flex;
+    justify-content: space-evenly;
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.One {
+    font-family: var(--font-Tow);
+    font-weight: bold;
+    font-size: 0.5rem;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #bdbdbdbd;
+}
+.Tow {
+    font-family: var(--font-Tow);
+    font-weight: 500;
+    font-size: 0.6rem;
+    line-height: 12px;
+    color: #333;
+}
+.ingredients {
+    margin-top: 30px;
+}
+.titel-2 {
+    font-family: var(--font-One);
+    font-weight: bold;
+    font-size: 1.12rem;
+    line-height: 24px;
+    color: #333;
+}
+.text {
+    font-family: var(--font-One);
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.12rem;
+    line-height: 21px;
+    color: #333;
+    margin-top: 13px;
+    margin-bottom: 24px;
+}
+.first {
+    margin-bottom: 40px;
+}
+.checkbox {
+    display: block;
+    position: relative;
+    font-family: var(--font-Tow);
+    font-size: 0.875rem;
+    line-height: 25px;
+    color: #333;
+    padding-left: 35px;
+    margin-bottom: 12px;
+}
+input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+.container {
+    margin-top: 20px;
+}
+.items {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    /* margin-bottom: 20px; */
+} 
+.num {
+   background: #f2994a;
+   min-width: 36px;
+   height: 36px;
+   border-radius: 6px;
+   font-family: var(--font-One);
+   font-weight: bold;
+   font-size: 1.5rem;
+   line-height: 32px;
+   color: #fff;
+   text-align: center;
+}
+.info-instructions {
+    font-family: var(--font-Tow);
+    font-size: 1rem;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+footer {
+    margin-top: 125px;
+}
+.line {
+    border: 1px solid rgb(185, 182, 182);
+    width: 50%;
+    margin: 10px auto;
+}
+.foter {
+    margin-top: 30px;
+    font-family: var(--font-Tow);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    line-height: 17px;
+    color: #828282;
+}
+
+/* ========= for Desktop and tablet ================ */
+/* this for tablet */
+
+@media screen and (min-width: 700px) {
+    .info-instructions {
+        max-width: 80%;
+    }
+}
+
+/* this for laptop */
+@media screen and (min-width: 1024px) {
+    .title {
+        font-size: 3rem;
+    }
+    header .inf-text p {
+        max-width: 50%;
+        font-size: 0.875rem;
+        margin-top: 20px;
+    }
+    .cake {
+        width: 80%;
+    }
+    /* card */
+    .info{
+        width: 216px;
+        height: 367px;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Vo {
+        display: block;
+    }
+    .clock {
+       display: flex; 
+       gap: 10px;
+       margin-top: 21px;
+    }
+    .semll {
+        font-size: .625rem;
+        font-family: var(--font-Tow);
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #bdbdbdbd;
+        font-style: normal;
+    }
+    .col {
+        font-size: 0.875rem;
+        font-family: var(--font-Tow);
+        font-weight: 500;
+        line-height: 17px;
+        font-style: normal;
+    }
+    .One {
+        font-size: 0.625rem;
+    }
+    .Tow {
+        font-size: 0.875rem;
+    }
+    .section-One {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .ingredients {
+        width: 50%;
+    }
+    .titel-2 {
+        font-size: 3rem;
+        margin-bottom: 40px;
+    }
+    .title {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    .container {
+        margin-top: 20px;
+    }
+    .section-tow {
+   
+        margin-left: 14rem;
+    }
+    .instructions {
+        width: 60%;
+    }
+    .title-header {
+        font-size: 3rem;
+    }
+}
